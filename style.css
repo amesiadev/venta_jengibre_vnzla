@@ -652,3 +652,31 @@ footer strong {
 }
 
 }
+.hero-image-container{
+    position:relative;
+}
+
+.hero-secondary-image{
+    position:absolute;
+    bottom:-25px;
+    left:-30px;
+    width:180px;
+    border-radius:18px;
+    overflow:hidden;
+    border:6px solid #fff;
+    box-shadow:0 15px 35px rgba(0,0,0,.18);
+}
+
+.hero-secondary-image img{
+    width:100%;
+    display:block;
+}
+@media (max-width:768px){
+
+.hero-secondary-image{
+    width:120px;
+    left:-5px;
+    bottom:-15px;
+}
+
+}
