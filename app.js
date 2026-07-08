@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const telefono = document.getElementById('telefono').value.trim();
 
         // REEMPLAZA ESTE NÚMERO: Coloca tu WhatsApp real (Formato internacional, sin el signo +)
-        const numeroVendedor = "584120000000"; 
+        const numeroVendedor = "573024118216"; 
 
         // 2. Armar el mensaje estructurado para tu negociación B2B
         const mensaje = `¡Hola! Vengo de la Landing Page de *Raíces de Fe* y deseo iniciar una negociación:
