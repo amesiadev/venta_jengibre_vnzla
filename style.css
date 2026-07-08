@@ -562,3 +562,61 @@ footer strong {
         grid-template-columns: 1fr;
     }
 }
+
+.capacity-section{
+    padding:60px 0;
+    background:#f8faf8;
+}
+
+.capacity-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.capacity-card{
+    background:#fff;
+    border-radius:18px;
+    padding:30px 20px;
+    text-align:center;
+    box-shadow:0 8px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.capacity-card:hover{
+    transform:translateY(-6px);
+}
+
+.capacity-number{
+    display:block;
+    font-size:2rem;
+    font-weight:800;
+    color:#1b5e3b;
+    margin-bottom:10px;
+}
+
+.capacity-text{
+    color:#555;
+    font-size:1rem;
+    font-weight:500;
+}
+
+@media(max-width:768px){
+
+.capacity-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.capacity-section{
+    padding:40px 0;
+}
+
+.capacity-card{
+    padding:22px 15px;
+}
+
+.capacity-number{
+    font-size:1.7rem;
+}
+
+}
