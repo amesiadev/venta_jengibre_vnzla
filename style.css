@@ -620,3 +620,35 @@ footer strong {
 }
 
 }
+.hero-trust{
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+}
+
+.trust-item{
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+    font-size:.98rem;
+    color:#555;
+    line-height:1.5;
+}
+
+.trust-item i{
+    color:var(--primary-color);
+    margin-top:3px;
+    font-size:1.1rem;
+}
+@media (max-width:768px){
+
+.hero-trust{
+    margin-top:25px;
+}
+
+.trust-item{
+    font-size:.92rem;
+}
+
+}
